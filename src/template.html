@@ -6,20 +6,26 @@
     <title>Restaurant Page</title>
   </head>
   <body>
-    <div class="slideshow-container"></div>
+    <div class="slideshow-container js-slideshow-container">
+      <div class="overlay js-overlay"></div>
+    </div>
     <header>
+      <div class="logo">
+        <a href="#" class="home-link">
+          <img src="icons/restaurant-17.svg">
+          <span class="res-name">Threepik</span>
+        </a>
+      </div>
       <nav>
-        <button>Home<button>
-        <button>Menu<button>
-        <button>About</button>
+        <ul>
+          <li><button id="home" class="active-mode">Home</button></li>
+          <li><button id="menu">Menu</button></li>
+          <li><button id="about">About</button></li>
+        </ul>
       </nav>
     </header>
+
+    <!-- JS fully owns everything inside #content -->
     <div id="content"></div>
   </body>
 </html>
-
-<!-- background1 -->
-<!-- todo: Image by <a href="https://pixabay.com/users/chren-2033163/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1191718">chren</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1191718">Pixabay</a> -->
-
-<!-- background2 -->
-<!-- *Image by <a href="https://pixabay.com/users/restaurantanticaroma-1405821/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=939435">RestaurantAnticaRoma</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=939435">Pixabay</a> -->
